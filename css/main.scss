@@ -48,54 +48,5 @@ h6 {
 
 // Content
 
-.entry-content a{
-    box-shadow: inset 0 -7px 0 0 #fcdedb;
-}
-
-.site-content img{
-    width: 100%;
-}
-
-.site-container {
-    padding: 1.5rem 0;
-}
-
-.post-list {
-    margin-top: 0rem;
-    flex-wrap: wrap;
-    .entry-header{
-        font-weight: bold;
-        font-size: 1.3rem;
-        line-height: 1.3;
-        padding: 0.5rem 0;    
-    }
-}
-.cs-flex {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    span {
-        padding: 0.25rem;
-    }
-}
-
-.pagination-wrap {
-    max-width: 700px;
-    padding: 2rem;
-    margin: 0 auto;
-    .pagination-link {
-        background: white;
-    }
-    .pagination-link.is-current{
-        background: $footerbg;
-    }
-    .pagination-previous {
-        background: #fff !important;
-    }
-    .pagination-next {
-        background: #fff !important;
-    }
-}
 
 // Site Footer
