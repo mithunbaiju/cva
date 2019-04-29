@@ -1,1 +1,104 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 0;
+}
+
+.site-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.site-header .button {
+  font-weight: 400;
+}
+
+.entry-content a {
+  -webkit-box-shadow: inset 0 -7px 0 0 #fcdedb;
+          box-shadow: inset 0 -7px 0 0 #fcdedb;
+}
+
+.site-content img {
+  width: 100%;
+}
+
+.site-container {
+  padding: 1.5rem 0;
+}
+
+.post-list {
+  margin-top: 0rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.post-list .entry-header {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  padding: 0.5rem 0;
+}
+
+.cs-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cs-flex span {
+  padding: 0.25rem;
+}
+
+.pagination-wrap {
+  max-width: 700px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.pagination-wrap .pagination-link {
+  background: white;
+}
+
+.pagination-wrap .pagination-link.is-current {
+  background: #2f3640;
+}
+
+.pagination-wrap .pagination-previous {
+  background: #fff !important;
+}
+
+.pagination-wrap .pagination-next {
+  background: #fff !important;
+}
+/*# sourceMappingURL=main.css.map */
